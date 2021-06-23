@@ -1,0 +1,24 @@
+
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body">
+            <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i> Login</h1>
+            <%- include ("./partials/messages"); %>
+                <form action="/daneshjoo/login" method="POST">
+                    <div class="form-group">
+                        <label>Uni_id</label>
+                        <input type="text" id="email" name="Uni_id" class="form-control" placeholder="Enter Uni_id" />
+                    </div>
+                    <div class="form-group">
+                        <label>id</label>
+                        <input type="text" id="password" name="Id" class="form-control"
+                            placeholder="Enter Password" />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+                <p class="lead mt-4">
+                    No Account? <a href="/users/register">Register</a>
+                </p>
+        </div>
+    </div>
+</div>

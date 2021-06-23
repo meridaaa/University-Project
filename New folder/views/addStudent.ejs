@@ -1,0 +1,51 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body">
+            <h1 class="text-center mb-3">
+                <i class="fas fa-user-plus"></i> Register
+            </h1>
+                <%- include ("./partials/messages"); %>
+                <form action="/users/AddStudent" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" id="name" name="name" class="form-control" placeholder="Enter Name"
+                            value="<%= typeof name != 'undefined' ? name : '' %>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Uni_id">Uni_id</label>
+                        <input type="text" id="name" name="Uni_id" class="form-control" placeholder="Enter Uni_id"
+                            value="<%= typeof Uni_id != 'undefined' ? Uni_id : '' %>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="id">id</label>
+                        <input type="text" id="name" name="id" class="form-control" placeholder="Enter id"
+                            value="<%= typeof id != 'undefined' ? id : '' %>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="dateBirth">Father's Name</label>
+                        <input type="text" id="name" name="fatherName" class="form-control" placeholder="Enter Father's Name"
+                            value="<%= typeof fatherName != 'undefined' ? fatherName : '' %>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="motherName">Mother's Name</label>
+                        <input type="text" id="name" name="motherName" class="form-control" placeholder="Enter Mother's Name"
+                            value="<%= typeof motherName != 'undefined' ? motherName : '' %>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="date_birth">Birth Date</label>
+                        <input type="text" id="name" name="date_birth" class="form-control" placeholder="Enter Birth Date"
+                            value="<%= typeof date_birth != 'undefined' ? date_birth : '' %>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="reshte">Reshte</label>
+                        <input type="text" id="name" name="reshte" class="form-control" placeholder="Enter Reshte"
+                            value="<%= typeof reshte != 'undefined' ? reshte : '' %>" />
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Add
+                    </button>
+                </form>
+                <p class="lead mt-4">Have An Account? <a href="/users/login">Login</a></p>
+        </div>
+    </div>
+</div>
