@@ -1,0 +1,112 @@
+[
+    
+            {
+                "place": [
+                    "L5"
+                ],
+                "day": [
+                    "2shanbe"
+                ],
+                "_id": "60b0fb94220c461ff061487f",
+                "name": "Physic1",
+                "vahed": 3,
+                "ostad": "Ghavami",
+                "daneshkade": "Physics",
+                "saat": "11:30",
+                "zarfiat": 100
+            },
+            {
+                "place": [
+                    "I8"
+                ],
+                "day": [
+                    "shanb",
+                    "2shanbe"
+                ],
+                "_id": "60b0fbcdcf5fb629b8c8706d",
+                "name": "Physic1",
+                "vahed": 3,
+                "ostad": "Hamidi",
+                "daneshkade": "Physics",
+                "saat": "7:30",
+                "zarfiat": 100
+            },
+            {
+                "place": [
+                    "I8"
+                ],
+                "day": [
+                    "1shanb"
+                ],
+                "_id": "60b0fbe9cf5fb629b8c8706e",
+                "name": "Enghelab",
+                "vahed": 2,
+                "ostad": "Ghodsi",
+                "daneshkade": "Maaref",
+                "saat": "15:30",
+                "zarfiat": 50
+            },
+            {
+                "place": [
+                    "I7"
+                ],
+                "day": [
+                    "2shanbe"
+                ],
+                "_id": "60b0fc6dcf5fb629b8c8706f",
+                "name": "Andishe2",
+                "vahed": 2,
+                "ostad": "Askari",
+                "daneshkade": "Maaref",
+                "saat": "13:30",
+                "zarfiat": 50
+            },
+            {
+                "place": [
+                    "I9"
+                ],
+                "day": [
+                    "shanb"
+                ],
+                "_id": "60b0fc86cf5fb629b8c87070",
+                "name": "Andishe1",
+                "vahed": 2,
+                "ostad": "Arab",
+                "daneshkade": "Maaref",
+                "saat": "9:30",
+                "zarfiat": 50
+            },
+            {
+                "place": [
+                    "S2"
+                ],
+                "day": [
+                    "1shanb",
+                    "3shanbe"
+                ],
+                "_id": "60b0fc9bcf5fb629b8c87071",
+                "name": "Data Structure",
+                "vahed": 3,
+                "ostad": "Saeid",
+                "daneshkade": "Computer Eng",
+                "saat": "7:30",
+                "zarfiat": 50
+            },
+            {
+                "place": [
+                    "Ts8"
+                ],
+                "day": [
+                    "shanb",
+                    "2shanbe"
+                ],
+                "_id": "60b0fcabcf5fb629b8c87072",
+                "name": "nlp",
+                "vahed": 3,
+                "ostad": "ghasemian",
+                "daneshkade": "Computer Eng",
+                "saat": "17:30",
+                "zarfiat": 70
+            }
+    
+        ]
